@@ -39,9 +39,11 @@ class Plugins extends Component {
             return <Plugin key={index} pluginData={plugin} />
         })
         return (
-            <React.Fragment>
-            {list}
-            </React.Fragment>
+            <div className="row">
+                <div className="col-12">
+                    {list}
+                </div>
+            </div>
         )
     }
 }
